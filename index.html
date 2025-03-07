@@ -1,55 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>SSM - Booking and Event</title>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="styles.css" />
-  <title>Booking System</title>
-</head>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
 
-<body>
-  <section class="banner">
-    <div class="container">
-      <div class="left-side">
-        <img src="img/ssmLogo.png" width="50%" height="50%" alt="ssm-logo" />
-        <div class="links-container">
-          <div class="buttons">
-            <div class="links">
-              <a class="ref" href="https://www.facebook.com"> FIND US ON FACEBOOK</a> <img
-                src="img/facebook-app-symbol.png" alt="" width="40">
-            </div>
-            <div class="links">
-              <a class="ref" href="https://www.facebook.com"> FOLLOW OUR INSTAGRAM</a> <img src="img/instagram.png"
-                alt="" width="40">
-            </div>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="css/fontAwesome.css" />
+    <link rel="stylesheet" href="css/hero-slider.css" />
+    <link rel="stylesheet" href="css/owl-carousel.css" />
+    <link rel="stylesheet" href="css/datepicker.css" />
+    <link rel="stylesheet" href="styles.css" />
 
-            <div class="links">
-              <a class="ref" href="https://www.facebook.com"> OUR YOUTUBE CHANNEL </a><img src="img/social.png" alt=""
-                width="40">
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800"
+      rel="stylesheet"
+    />
+
+    <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
+  </head>
+
+  <body>
+    <section class="banner" id="top">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <div class="left-side">
+              <div class="logo">
+                <img src="img/ssmLogo.png" alt="Flight Template" />
+              </div>
+              <div class="tabs-content">
+                <ul class="social-links">
+                  <li>
+                    <a href="https://www.facebook.com/mongolian0224"
+                      >Find us on <em>Facebook</em><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="http://youtube.com"
+                      >Our <em>YouTube </em>Channel <i class="fa fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a href="http://instagram.com"
+                      >Follow our <em>instagram</em
+                      ><i class="fa fa-instagram"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+              <div class="page-direction-button">
+                <a href="contact.html"
+                  ><i class="fa fa-phone"></i>Contact Us Now</a
+                >
+              </div>
             </div>
+          </div>
+          <div class="col-md-5 col-md-offset-1">
+            <section id="first-tab-group" class="tabgroup">
+              <div id="tab1">
+                <div class="submit-form">
+                  <h4><em>Book For an Event</em>:</h4>
+                  <div class="row" id="btn-sub">
+                    <div class="col-md-6" id="btn-sub">
+                      <a href="">
+                        <button type="submit" id="form-submit" class="btn">
+                          Book Now
+                        </button>
+                      </a>
+                      <a href="">
+                        <button type="submit" id="form-submit" class="btn">
+                          Check for availability
+                        </button>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
           </div>
         </div>
       </div>
-      <div class="right-side">
-        <div class="booking-container">
-          <h2>Book For an Event:</h2>
-          <div class="radio-group">
-            <label><input type="radio" name="userType" value="staff">
-              STAFF</label> <label>
-              <input type="radio" name="userType" value="non-staff">
-              NON-STAFF</label>
-          </div>
-          <button class="btn" onclick="bookNow()">Book Now</button>
-          <button class="btn" onclick="checkAvailability()">Check for availability</button>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section class="sec-2">
-    
+    </section>
 
-  </section>
-</body>
+    <section class="tabs-content">
+      <!-- "Recommended places for you"
 
+      Write your code here.
+
+       "Note: this section is a clickable carousel, 
+      so make sure you search online on how to create a carousel"-->
+    </section>
+
+    <section class="most-visited">
+      <!-- write your code here 
+
+      "Note: this section is a carousel, 
+      so make sure you search online on how to create a carousel"
+
+      make sure your codes are well aligned  -->
+    </section>
+  </body>
 </html>

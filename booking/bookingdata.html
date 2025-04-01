@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/11.4.0/firebase-app.js"
+    ></script>
+    <script
+      type="module"
+      src="https://www.gstatic.com/firebasejs/11.4.0/firebase-firestore.js"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="datastyle.css" />
+    <title>Booking Data</title>
+  </head>
+  <body>
+    <h1>List of Bookings:</h1>
+    <table class="table-data">
+      <tr>
+        <th>Name:</th>
+        <th>Email:</th>
+        <th>Room:</th>
+        <th>Date:</th>
+        <th>Start Time:</th>
+        <th>End Time:</th>
+        <th>Status:</th>
+      </tr>
+    </table>
+    <script type="module" src="index.js"></script>
+    <script type="module" src="bookingdata.js"></script>
+  </body>
+</html>

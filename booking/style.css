@@ -1,0 +1,92 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.form-group {
+  padding: 10px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+.form-group input{
+  padding: 15px;
+}
+
+.form-group input:focus,
+.form-group input:hover,
+.form-group input:active,
+select:focus,
+select:hover,
+select:active {
+  border-color: #0f273b;
+}
+
+input, select {
+  width: 100%;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 20px;
+  background-color: #ffe165;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+button:hover {
+  background-color: #4d4a17;
+  color: #f4f4f4;
+}
+
+.hidden {
+  display: none;
+}
+
+#confirmation {
+  margin-top: 20px;
+  padding: 30px;
+  text-align: center;
+}
+
+#confirmedName{
+  font-weight: bold;
+  font-size: 20px;
+  text-transform: uppercase;
+  color: #0f273b;
+}
+
+

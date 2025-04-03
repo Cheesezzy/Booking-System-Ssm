@@ -34,7 +34,7 @@ document
     const date = document.getElementById("date").value.trim();
     const starttime = document.getElementById("starttime").value.trim();
     const endtime = document.getElementById("endtime").value.trim();
-    const room = document.getElementById("service").value.trim();
+    const room = document.getElementById("service").value.trim().toUpperCase();
 
     // Validate form inputs
     if (!name || !email || !date || !starttime || !endtime || !room) {
@@ -98,8 +98,9 @@ document
         `,
       });
 
-      // Reset the form
+      // Reset the form and navigate to the booking data page
       document.getElementById("bookingForm").reset();
+      window.location.href = "./bookingdata.html";
     } catch (error) {
       console.error("Error adding document: ", error);
 
